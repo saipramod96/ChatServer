@@ -19,14 +19,6 @@ import java.util.HashSet;
  * clients that have submitted a unique screen name.  The
  * broadcast messages are prefixed with "MESSAGE ".
  *
- * Because this is just a teaching example to illustrate a simple
- * chat server, there are a few features that have been left out.
- * Two are very useful and belong in production code:
- *
- *     1. The protocol should be enhanced so that the client can
- *        send clean disconnect messages to the server.
- *
- *     2. The server should do some logging.
  */
 public class ChatServer {
 
